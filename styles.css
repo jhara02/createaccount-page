@@ -1,0 +1,174 @@
+*, *::before, *::after{
+    content: "";
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    height: 150vh;
+    max-width: 800px;
+    box-sizing:border-box;
+    align-items: center;
+    
+}
+
+.store-title {
+    display: flex;
+    position:relative;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    font-size: 50px;
+    color: black;
+    font-family:'Red Hat Display', serif;
+   }
+
+#carousel-fashion{
+    margin: 15% 100px 15px 100px;
+    display:flex;
+    position:relative;
+    margin-bottom:9em
+}
+
+.images-slide{
+    border-radius: 20px;
+    border: none;
+    box-shadow: #1B1A17;
+}
+
+.form-container{
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 1em;   
+    width: min(250% - 1rem, 900px);
+    height: auto;
+    margin-top: 5em;
+}
+
+.title-form{
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    display:inline-block;
+    position:relative;
+    font-family: 'Red Hat Display', serif;
+    font-weight: 500;
+    color: #1B1A17;
+    margin-bottom: 30px;
+    text-align: center; 
+}
+
+.form-control{
+    position: relative;
+    width: 100%;
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;   
+}
+
+.form-check{
+    display:flex;
+    position:relative;
+    float:left;
+    justify-content:space-around; 
+    padding: 25px 10px 25px 10px;  
+}
+
+.gender-title{
+    margin-top: 1.5em;
+    font-family: "cormorant";
+    font-weight: 500;  
+    color: #1B1A17;  
+}
+
+.form-check-input{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    color: black;
+}
+
+.form-check-label{
+    color:black;
+}
+
+.btn-sub{
+    width: 100%;
+    height:40px;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    border:none ;
+    background-color:#00454A;
+    font-family: 'Cormorant'serif;
+    font-weight: 500;
+    color:#F9F9F9;
+    transition: all 0.3s ease;
+}
+
+.btn-sub:hover{
+    background: linear-gradient(-291deg, #17B978, #65C18C, #00454A);
+    
+}
+
+h3{
+    font-family: 'cormorant';
+    text-align: center;
+    color:#1B1A17    
+  
+}
+
+.fb-cont{
+    display:flex;
+    position:relative;
+    text-align: center;
+    
+}
+
+.gmail-cont{
+    display:flex;
+    position:relative;
+    text-align: center; 
+}
+
+.soc-icon{
+  border: none; 
+  border-radius: 10px;
+  margin-bottom: 1em;
+  width: 100%;
+  height: 3em;
+  color: azure;
+  font-family: 'cormorant';
+  font-size: 15px;
+  font-weight: 500;
+  background-color:#00454A;
+ }
+
+ .soc-icon:hover{
+    background: linear-gradient(-291deg, #17B978, #65C18C, #00454A);
+
+ }
+
+@media(max-width: 700px){
+    .body{
+        width: 100%;
+    }
+     
+    #carousel-fashion{
+        width: 100%;
+    }
+
+    .form-container{
+        width:250%
+    }
+
+    .btn-sub{
+        width: 100%;
+    }
+
+    .soc-icon{
+        width:100%;
+    }
+}
+
+
+
+
+
